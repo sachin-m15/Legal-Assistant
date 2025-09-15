@@ -1,0 +1,13 @@
+langchain
+langchain_community
+langgraph
+faiss-cpu
+tavily-python
+streamlit
+numpy
+scikit-learn
+pandas
+python-dotenv
+PyMuPDF
+sentence-transformers
+plotly
