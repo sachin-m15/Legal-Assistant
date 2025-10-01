@@ -1,9 +1,13 @@
+# LARA/legal_rag/retrieval.py
+
 import os
 from langchain_core.tools import tool
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain_core.runnables import RunnableParallel
+from langchain_core.documents import Document  # <-- NEW: Import Document
+from langchain_core.messages import BaseMessage  # <-- FIX: Import BaseMessage
 from typing import TypedDict, Annotated, List, Any
 import operator
 from dotenv import load_dotenv
@@ -12,7 +16,7 @@ load_dotenv()
 
 
 # -------------------------
-# Agent State
+# Agent State (updated to match new structure)
 # -------------------------
 class AgentState(TypedDict):
     query: str
@@ -20,15 +24,19 @@ class AgentState(TypedDict):
     web_search_results: str
     faiss_search_results: str
     final_analysis: str
+    research_complete: bool
+    chat_history: List[BaseMessage]
+    sources: Annotated[List[dict], operator.add]  # <-- NEW: To store source metadata
 
 
 # -------------------------
-# FAISS Legal DB Tool
+# FAISS Legal DB Tool (Updated to return Document objects)
 # -------------------------
 @tool
-def legal_database_search(query: str) -> str:
+def legal_database_search(query: str) -> List[Document]:
     """
     Search against a pre-indexed FAISS vector store of Indian laws and cases.
+    Returns a list of Document objects with page content and metadata.
     """
     try:
         FAISS_INDEX_PATH = "data/faiss_index"
@@ -39,17 +47,21 @@ def legal_database_search(query: str) -> str:
             FAISS_INDEX_PATH, embedding_model, allow_dangerous_deserialization=True
         )
 
-        retrieved_docs = db.similarity_search(query, k=5)
-        return " ".join([doc.page_content for doc in retrieved_docs])
+        retrieved_docs = db.similarity_search_with_score(query, k=5)
+
+        # You'll need to ensure your FAISS index stores metadata for each document,
+        # such as the file name, case name, or source.
+
+        return [doc[0] for doc in retrieved_docs]  # Return list of Document objects
 
     except FileNotFoundError:
-        return f"FAISS index not found at {FAISS_INDEX_PATH}. Please pre-index your legal data."
+        return [Document(page_content=f"FAISS index not found at {FAISS_INDEX_PATH}.")]
     except Exception as e:
-        return f"Error during legal database search: {e}"
+        return [Document(page_content=f"Error during legal database search: {e}")]
 
 
 # -------------------------
-# Research Function
+# Research Function (Updated to handle structured output and sources)
 # -------------------------
 def perform_research(state: AgentState) -> dict:
     """Performs both FAISS and web searches in parallel."""
@@ -60,34 +72,50 @@ def perform_research(state: AgentState) -> dict:
     if not tavily_api_key:
         raise ValueError("TAVILY_API_KEY environment variable not set.")
 
-    # The variable for the tool is correctly named 'web_search_tool' here
     web_search_tool = TavilySearchResults(max_results=5, tavily_api_key=tavily_api_key)
 
-    # Run both searches in parallel
     rag_chain = RunnableParallel(
         {
             "faiss_search_results": lambda x: legal_database_search.invoke(x["query"]),
-            # Change 'tavily_search_tool' to 'web_search_tool' to match the variable name
             "web_search_results": lambda x: web_search_tool.invoke(x["query"]),
         }
     )
 
-    # Pass {"query": query} instead of full state
     results = rag_chain.invoke({"query": query})
-    print("RAW RESULTS:", results)
 
-    # Normalize web search results (list of dicts → string)
-    web_results = results.get("web_search_results", "")
-    if isinstance(web_results, list):
-        web_results_str = " ".join([r.get("content", str(r)) for r in web_results if r])
-    else:
-        web_results_str = str(web_results)
+    faiss_docs = results.get("faiss_search_results", [])
+    web_results_list = results.get("web_search_results", [])
+
+    # Extract source metadata and create a single list of sources
+    sources = []
+
+    # Process FAISS sources
+    faiss_content = ""
+    for doc in faiss_docs:
+        faiss_content += doc.page_content + "\n\n"
+        if doc.metadata:
+            sources.append({"type": "document", "metadata": doc.metadata})
+
+    # Process web sources
+    web_content = ""
+    for item in web_results_list:
+        web_content += item.get("content", "") + "\n\n"
+        sources.append(
+            {
+                "type": "web",
+                "url": item.get("url", "N/A"),
+                "title": item.get("title", "N/A"),
+            }
+        )
+
+    print("RAW RESULTS:", {"faiss": faiss_content, "web": web_content})
 
     return {
-        "faiss_search_results": results.get("faiss_search_results", ""),
-        "web_search_results": web_results_str,
+        "faiss_search_results": faiss_content,
+        "web_search_results": web_content,
+        "sources": sources,
         "intermediate_steps": [
-            f"FAISS Results: {results.get('faiss_search_results', '')}",
-            f"Web Results: {web_results_str}",
+            f"FAISS Results: {faiss_content}",
+            f"Web Results: {web_content}",
         ],
     }

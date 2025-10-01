@@ -18,7 +18,7 @@ MAX_CHUNKS = 3
 
 
 # ------------------------------
-# Agent State
+# Agent State (Kept for reference, but not used in this file)
 # ------------------------------
 class AgentState(TypedDict):
     query: str
@@ -115,7 +115,7 @@ def summarize_long_text(text: str, label: str, query: str) -> str:
 
 
 # ------------------------------
-# Core Functions
+# Existing Citizen-focused Functions
 # ------------------------------
 def summarize_and_reflect(state: AgentState) -> dict:
     """Summarizes the findings and reflects on the research to identify gaps."""
@@ -182,6 +182,87 @@ def generate_final_analysis(state: AgentState) -> dict:
         Research Steps: {all_steps}
 
         Final Analysis:""",
+        input_variables=["query", "all_steps"],
+    )
+
+    final_analysis = safe_invoke(
+        llm, analysis_prompt, {"query": query, "all_steps": all_steps}
+    )
+
+    return {"final_analysis": final_analysis}
+
+
+# ------------------------------
+# New Lawyer-focused Functions
+# ------------------------------
+def summarize_and_reflect_lawyer(state: AgentState) -> dict:
+    """
+    Summarizes findings and reflects on the research from a lawyer's perspective.
+    Identifies if enough legal precedents and arguments have been found.
+    """
+    print("---SUMMARIZING & REFLECTING FOR LAWYER---")
+    query = state["query"]
+
+    faiss_summary = summarize_long_text(
+        state["faiss_search_results"], "FAISS results", query
+    )
+    web_summary = summarize_long_text(state["web_search_results"], "Web results", query)
+
+    llm = get_llm()
+    summary_prompt = PromptTemplate(
+        template="""You are a legal research assistant for a lawyer. Based on the original query
+        and the following summarized search results, provide a professional reflection.
+
+        Original Query: {query}
+        FAISS Summary: {faiss_summary}
+        Web Summary: {web_summary}
+
+        Reflection:
+        1. **Key Legal Findings**: Highlight relevant statutes, case names, and legal principles.
+        2. **Gaps in Research**: Identify missing information, such as conflicting judgments or lack of recent precedents.
+        3. **Is the research complete?** ('YES' or 'NO')""",
+        input_variables=["query", "faiss_summary", "web_summary"],
+    )
+
+    summary = safe_invoke(
+        llm,
+        summary_prompt,
+        {"query": query, "faiss_summary": faiss_summary, "web_summary": web_summary},
+    )
+
+    is_complete = "YES" in summary.upper()
+
+    return {
+        "intermediate_steps": state["intermediate_steps"] + [summary],
+        "research_complete": is_complete,
+    }
+
+
+def generate_lawyer_analysis(state: AgentState) -> dict:
+    """Generates a structured legal analysis report for a lawyer."""
+    print("---GENERATING LAWYER ANALYSIS REPORT---")
+    query = state["query"]
+    all_steps = "\n".join(state["intermediate_steps"])
+
+    # Compress steps if too long
+    if len(all_steps.split()) > 1500:
+        all_steps = summarize_long_text(all_steps, "research steps", query)
+
+    llm = get_llm()
+    analysis_prompt = PromptTemplate(
+        template="""You are an expert legal assistant. Based on the lawyer's case details
+        and the research steps below, generate a professional legal analysis.
+
+        - **Original Case Details**: A summary of the query provided by the lawyer.
+        - **Relevant Statutes & Acts**: List of key legal provisions from Indian Law.
+        - **Past Case Precedents & Judgments**: A detailed summary of related case studies with names and citations.
+        - **Key Legal Arguments & Points**: Actionable points and arguments derived from the research.
+        - **Sources**: A clear list of all web pages and internal documents used.
+
+        Case Details: {query}
+        Research Steps: {all_steps}
+
+        Final Legal Analysis:""",
         input_variables=["query", "all_steps"],
     )
 

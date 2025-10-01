@@ -1,0 +1,1199 @@
+भारतीय ǐरजवर् बैंक 
+__________________RESERVE BANK OF INDIA _________________ 
+www.rbi.org.in 
+ 
+RBI/DOR/2025-26/140 
+DOR.STR.REC.45/13.07.010/2025-26  
+ 
+                   August 06, 2025 
+   
+ 
+Reserve Bank of India (Non-Fund Based Credit Facilities) Directions, 2025 
+ 
+Index 
+ 
+Chapter - I ............................................................................................................................ 2 
+Preliminary .......................................................................................................................... 2 
+A. Introduction ................................................................................................................... 2 
+B. Applicability ................................................................................................................... 2 
+C. Definitions ...................................................................................................................... 3 
+Chapter II ............................................................................................................................. 4 
+General Conditions ........................................................................................................... 4 
+Chapter – III ......................................................................................................................... 5 
+A. Guarantees .................................................................................................................... 5 
+B. Co-acceptances ............................................................................................................ 6 
+C. Requirements for Other Specific Guarantees ...................................................... 6 
+Chapter - IV ......................................................................................................................... 7 
+Partial Credit Enhancement ........................................................................................... 7 
+A. Salient features of the PCE facility ......................................................................... 8 
+B. Balance Sheet treatment, capital requirements, exposure and asset 
+classification norms for exposures arising on account of providing PCE ....... 9 
+C. Additional conditions for providing PCE to bonds of NBFCs and HFCs ... 11 
+D. Other Aspects of PCE ............................................................................................... 11 
+Chapter - V ........................................................................................................................ 12 
+Exclusions and Other Aspects .................................................................................... 12 
+Chapter VI.......................................................................................................................... 13 
+Disclosures ....................................................................................................................... 13 
+Annex 1 .............................................................................................................................. 14 
+Operational Risk Controls for issuance of Electronic Guarantees ................... 14 
+Annex 2 .............................................................................................................................. 16 
+List of Circulars repealed in respect of Scheduled Commercial Banks .......... 16 
+List of Circulars repealed in respect of Urban Cooperative Banks ................... 20 
+ 
+Page 2 of 20 
+ 
+Chapter - I 
+Preliminary 
+A. Introduction 
+1. Non-fund based (NFB) facilities like guarantees, letters of credit, co-acceptances 
+etc. facilitate effective credit intermediation and smooth business transactions. 
+In order to harmonize and consolidate guidelines covering these facilities across 
+the entities regulated by the Reserve Bank and to broaden the funding sources 
+for infrastructure financing, the Reserve Bank had issued draft guidelines on 
+NFB facilities for public comments on April 9, 2025. The comments received 
+thereon have been analysed and suitably incorporated in these Directions. 
+2. In exercise of the powers conferred under sections 21 and 35A read with section 
+56 of the Banking Regulation Act, 1949, sections 45JA, 45L and 45M of the 
+Reserve Bank of India Act, 1934, and sections 30A, 32 and 33 of the National 
+Housing Bank Act, 1987, the Reserve Bank of India, being satisfied that it is 
+necessary and expedient in the public interest and in the interest of banking 
+policy to do so, hereby, issues the Reserve Bank of India (Non-Fund Based 
+Credit Facilities) Directions, 2025 (hereinafter referred to as ‘Directions’). 
+B. Applicability 
+3. These Directions shall apply to the following entities, hereinafter referred to as 
+Regulated Entity (RE) and collectively as Regulated Entities (REs), as the 
+context may require, for all their Non-Fund Based (NFB) exposures such as 
+guarantee, letter of credit, co-acceptance etc., unless otherwise permitted under 
+these Directions or any regulatory guidelines/ directions issued by the Reserve 
+Bank. 
+a. Commercial Banks (including Regional Rural Banks and Local Area Banks); 
+b. Primary (Urban) Co-operative Banks (UCBs)/ State Co-operative Banks 
+(StCBs)/ Central Co-operative Banks (CCBs); 
+c. All India Financial Institutions (AIFIs); 
+d. Non-Banking Financial Companies (NBFCs) including Housing Finance 
+Companies (HFCs) in Middle Layer and above, only for the issuance of 
+Page 3 of 20 
+ 
+Partial Credit Enhancement, as permitted under Chapter IV of these 
+Directions.   
+Provided that these Directions shall not apply to the derivative exposures of 
+a RE, other than the general conditions as laid down under Chapter II of these 
+Directions.  
+4. These Directions shall come into force from April 1, 2026, or from any earlier 
+date as decided by a RE as per its internal policy (“effective date”). Extension of 
+any new NFB facility and renewal of an existing NFB facility after the effective 
+date, shall be governed in terms of these Directions. All existing NFB facilities 
+extended/ renewed till the effective date shall be governed by the existing 
+instructions as applicable to the respective REs. 
+C. Definitions 
+5. For the purpose of these Directions, the following definitions shall apply: 
+a. “Beneficiary” means the party in whose favour the NFB facility is issued by a 
+RE.  
+b. “Co-acceptance of bills” means an undertaking to make payment to the 
+drawer of the bill (seller/ exporter) on due date if the buyer/ importer fails to 
+make the payment on that date. 
+c. “Guarantee” means a contract to perform the promise, or discharge the 
+liability, of a third person in the contingent case of his non-performance or 
+default, in terms of The Indian Contract Act, 1872. 
+d. “Guarantor” refers to the party which issues the guarantee. 
+e. “Obligor” refers to a party against whose obligations, financial or otherwise, 
+a NFB facility has been issued. In the case of guarantees, the obligor may 
+also be termed as ‘principal debtor’, as defined under the Indian Contract 
+Act, 1872. 
+f. “Secured portion of an NFB facility” is the portion of the facility covered by 
+realisable value of tangible security/ collateral estimated on a realistic basis. 
+Page 4 of 20 
+ 
+Chapter II 
+General Conditions  
+6. The credit policy of a RE shall incorporate suitable provisions for issue of NFB 
+facilities, inter alia, covering aspects relating to type of NFB facilities, limits 
+granted, credit appraisal, security requirement, fraud prevention, overall 
+monitoring mechanism including post-sanction monitoring, delegation matrix, 
+audit and internal controls, compliance to uniform standards issued by standard 
+setting bodies and other safeguards. 
+7. A RE shall issue a NFB facility only on behalf of a customer having funded credit 
+facility from the RE. 
+Provided that this clause shall not be applicable in respect of: 
+a. Derivative contracts entered into by RE with counterparty.  
+b. Partial Credit enhancement facility, as permitted under clause 23 of these 
+Directions. 
+c. NFB facilities issued based on the counter guarantee of another RE, as 
+permitted under clause 15 of these Directions. 
+d. NFB facilities on behalf of an obligor who has not availed any fund based 
+facility from any RE in India. 
+e. NFB facilities extended by a RE against No Objection Certificate issued by 
+the RE/ REs which has/ have provided fund based facility to the obligor. 
+f. NFB facilities which are fully secured by eligible financial collateral. 
+Explanation: The eligible financial collateral specified herein for all REs shall 
+be as defined under paragraph 7.3.5 of Master Circular – Basel III Capital 
+Regulations dated April 01, 2025 as updated from time to time 
+8.  A RE shall not issue a NFB facility to any entity assuring redemption/ repayment 
+of funds raised by any entity via deposits, issuance of bonds, or in any other 
+form, unless specifically permitted under any regulatory guidelines/ directions 
+issued by the Reserve Bank. 
+9. Once a NFB facility devolves and is converted into a fund based facility, then the 
+prudential norms shall be as applicable to fund based facilities.   
+Page 5 of 20 
+ 
+Chapter – III 
+Conditions applicable to Guarantees and Co-acceptances 
+A. Guarantees 
+10. In general, a guarantee (or a counter-guarantee) issued by a RE (guarantor) 
+shall be irrevocable (i.e., there shall be no clause in the contract that would allow 
+the guarantor to unilaterally cancel the same), unconditional (i.e. there shall be 
+no clause in the contract that could prevent the RE from being obliged to pay out 
+in a timely manner in the event that the original counterparty fails to meet its 
+obligation), incontrovertible and shall contain a clear mechanism for honouring 
+the same without demur as and when invoked. 
+11. A RE shall put in place suitable internal aggregate/ individual ceilings for 
+issuance of guarantees in general and unsecured guarantees in particular.  
+Provided that the total volume of guaranteed obligations of UCBs, RRBs, 
+LABs, StCBs and CCBs outstanding at any time shall not exceed 5% of their 
+total assets as per the previous financial year’s balance sheet. Further, 
+unsecured guarantees of these REs shall be restricted to 1.25% of total assets. 
+Any such RE in breach of the above stipulation as on the date of issue of these 
+Directions shall meet the above threshold by April 01, 2027.  
+12. The provisions of the internal policy relating to guarantees shall, inter alia, 
+address aspects related to invocation and settlement mechanism, claim period, 
+tenor, fee/ commission/ applicable charges, timelines for release of security, 
+renewal, fraud prevention measures etc.  
+Usage of electronic-Guarantee  
+13. Wherever a RE issues an electronic Guarantee, it shall frame a standard 
+operating procedure (SOP) aimed at minimization of manual intervention; 
+meeting system integration requirements; ensuring technological compatibility 
+between the RE’s interface and the electronic Guarantee platforms, audit and 
+internal controls etc. The SOP shall, inter alia, consider the aspects mentioned 
+in Annex 1. 
+ 
+ 
+Page 6 of 20 
+ 
+Guarantee favouring another RE 
+14. A RE shall, in general, not provide a guarantee favouring another RE to enable 
+it to provide any fund based credit facility to an obligor.  
+Provided that this clause shall not be applicable in case of credit facilities 
+extended against guarantees pertaining to trade related transactions. 
+15. However, a RE may provide a guarantee favouring another RE for a NFB facility 
+extended by the latter. Such guarantee issued by a RE shall be treated as an 
+exposure on the obligor on whose behalf the guarantee has been issued by it, 
+for all purposes including for the calculation of capital adequacy. The exposure 
+of the RE extending credit facility against a guarantee shall be treated as a claim/ 
+exposure on the RE which is providing the counter guarantee. 
+Timely Payment of Invoked Guarantee 
+16. A RE shall honour the guarantee issued by it as and when invoked in accordance 
+with the terms and conditions of the guarantee deed unless there is court order 
+restraining the same.  
+B. Co-acceptances  
+17. Only genuine trade bills shall be co-accepted, and it shall be ensured that the 
+goods covered by bills co-accepted are actually received in the stock accounts 
+of the borrowers.  
+18. Proper records of the bills co-accepted for each customer shall be maintained, 
+so that the commitments for each customer and the total commitments at a 
+branch can be readily ascertained, and these shall be part of internal audit.  
+19. A RE shall not co-accept bills drawn by another RE or where the buyer/ seller 
+has received funding for the underlying trade transaction from any RE.  
+C. Requirements for Other Specific Guarantees 
+Guarantee and related business involving overseas current or capital account 
+transaction  
+20. REs permitted as Authorized Dealer (AD) may extend NFB facilities as permitted 
+under the extant regulations/ Directions issued under Foreign Exchange 
+Management Act, 1999, for bonafide current or capital account transaction, 
+Page 7 of 20 
+ 
+including guarantees in respect of debt or other liability incurred by an exporter 
+on account of exports from India. 
+21. AD banks are also permitted to issue guarantee to or on behalf of a foreign entity, 
+or any of its step-down subsidiary in which an Indian entity has acquired control 
+through the foreign entity, which is backed by a counter-guarantee or collateral 
+by the Indian entity or its group company. 
+Provided that such guarantees shall not be issued by banks, including 
+overseas branches/ subsidiaries of Indian banks, for the purpose of raising 
+loans/ advances of any kind by the foreign entity except in connection with the 
+ordinary course of business overseas. Further while extending such guarantees, 
+banks shall ensure effective monitoring of the end use of such facilities and its 
+conformity with the business needs of such entities. 
+Guarantees on behalf of Stock/ Commodity Brokers 
+22. Only Scheduled Commercial Banks (SCBs) may issue guarantees on behalf of 
+stock/ commodity brokers in favour of stock/ commodity exchanges in lieu of 
+security deposit to the extent it is acceptable in the form of bank guarantee as 
+laid down by exchanges. SCBs may also issue guarantees in lieu of margin 
+requirements as per exchange regulations read along with other instructions 
+issued by Reserve Bank in this regard from time to time. 
+Chapter - IV 
+Partial Credit Enhancement 
+23. SCBs (excluding RRBs), AIFIs, NBFCs including HFCs in Middle Layer and 
+above (together termed as “REs” for the purpose of Chapter IV) may provide 
+Partial Credit Enhancement (PCE) to bonds issued by corporates/ special 
+purpose vehicles (SPVs) for funding all types of projects and to bonds issued by 
+Non-deposit taking NBFCs with asset size of ₹1,000 crore and above registered 
+with RBI (including HFCs). PCE may also be provided to bonds issued by 
+Municipal Corporations subject to adherence to, inter alia, paragraph 2.3.7.3 (iii) 
+of Master Circular - Loans and Advances – Statutory and Other Restrictions 
+dated July 01, 2015 as amended from time to time.  
+Page 8 of 20 
+ 
+24. The objective behind allowing REs to extend PCE is to enhance the credit rating 
+of the bonds issued so as to enable corporates to access the funds from the 
+bond market on better terms. The guidelines in this regard are as below:  
+A. Salient features of the PCE facility 
+25. The credit policy of the RE shall incorporate suitable provisions for issue of PCE, 
+covering issues such as quantum of PCE, underwriting standards, assessment 
+of risk, pricing, setting limits, etc. 
+26. PCE shall be a subordinated facility provided in the form of an irrevocable 
+contingent line of credit which will be drawn in case of shortfall in cash flows for 
+servicing the bonds and thereby may improve the credit rating of the bond issue. 
+The contingent facility may, at the discretion of the PCE providing RE, be made 
+available as a revolving facility. 
+27. A clear agreement documenting all aspects of this arrangement shall be signed 
+between the promoter (bond issuer), the PCE providing RE, the bondholders 
+(through the Trustee) and all other lenders to the project. The agreement to this 
+effect shall be in the nature of a legally binding contract. The documentation for 
+the facility shall clearly define the circumstances under which the facility would 
+be drawn upon. 
+28. The PCE exposure limit by a single RE shall be 50 per cent of the bond issue 
+size. The aggregate exposure limit of all REs towards the PCE for a given bond 
+issue has also been capped at 50 per cent of the bond issue size. 
+29. The PCE facility shall be provided at the time of the bond issue and shall be 
+irrevocable. PCE cannot be provided by way of guarantee.  
+30. As the purpose of PCE by REs is to enable wide investor participation in the 
+corporate bond market, REs shall not invest in corporate bonds which are credit 
+enhanced by other REs. They may, however, provide other need based credit 
+facilities (funded and/ or non-funded) to the corporate/ SPV. 
+31. REs may offer PCE only in respect of bonds whose pre-enhanced rating are not 
+lower than “BBB” minus as issued by accredited External Credit Assessment 
+Institutions (ECAI). 
+Page 9 of 20 
+ 
+32. To be eligible for PCE, corporate bonds shall be rated by a minimum of two ECAI 
+at all times. 
+33. The rating reports, both initial and subsequent, shall disclose both standalone 
+credit rating (i.e., rating without taking into account the effect of PCE) as well as 
+the enhanced credit rating (taking into account the effect of PCE). 
+34. So long as the exposure of a RE to a project loan is classified as standard and 
+the borrower is not in any financial distress (Refer to Annex 1 of Prudential 
+Framework for Resolution of Stressed Assets dated June 7, 2019 for indicative 
+list of signs of financial difficulty), providing a commercially priced PCE to 
+enhance the rating of a bond issue, whose proceeds replace, in whole or in part, 
+the RE’s project loan, would not amount to restructuring. 
+35. The PCE shall be available only for servicing the bond and not for any other 
+purpose (such as funding acquisition of additional assets by the corporate, 
+meeting part of the project cost or meeting recurring expenses of the corporate 
+or servicing other lenders/ creditors to the project etc.), irrespective of the 
+seniority of claims of other creditors in relation to the bond holders.  
+36. In case the PCE facility is partly drawn and interest accrues on the same, the 
+unpaid accrued interest shall be excluded from the calculation of the remaining 
+amount available for drawing. 
+B. Balance Sheet treatment, capital requirements, exposure and asset 
+classification norms for exposures arising on account of providing PCE 
+37. PCE facilities to the extent drawn shall be treated as an on-balance sheet 
+advance in the balance sheet. Undrawn facilities would be an off-balance sheet 
+item and reported under ‘Contingent Liability – Others’.  
+38. The capital required to be maintained by the RE providing PCE for a given bond 
+issue shall be based on the PCE amount and the applicable risk weight for the 
+RE corresponding to the pre- enhanced rating of the bond.  
+To illustrate, in the case of a SCB, assume that the total bond size is ₹100 
+and pre-enhanced rating of the bond is BBB. In this scenario, the applicable risk 
+weight at the pre-enhanced rating of BBB is 100%.  
+Page 10 of 20 
+ 
+The capital requirement (assuming CRAR of 9%) for varying amount of PCE, 
+would, therefore be: 
+PCE Amount (₹) 
+Capital Requirement for PCE provider (₹) 
+20 
+1.8 (20*100%*9%) 
+30 
+2.7 (30*100%*9%) 
+40 
+3.6 (40*100%*9%) 
+50 
+4.5 (50*100%*9%) 
+ 
+39. For the purpose of capital computation in the books of PCE provider, lower of 
+the two pre-enhanced credit ratings shall be reckoned. 
+40. It is possible that the credit rating of the bond changes during the lifetime of the 
+bond, necessitating a change in the capital requirement. Therefore, the rating of 
+the bond shall be monitored regularly, and capital requirement adjusted in the 
+following manner: 
+a. In case of change in the pre-enhanced rating of the bond, the capital required 
+shall be recalculated based on the risk weight applicable to revised pre-
+enhanced rating, subject to a floor, i.e., the capital requirement on the PCE 
+at the time of issuance of the PCE enhanced bonds. 
+b. As long as the bond outstanding amount exceeds the aggregate PCE (drawn 
+and contingent non-funded) offered, the capital held shall not be less than 
+the amount required to be held at the time of issuance of the PCE enhanced 
+bond. However, once the bond outstanding has amortised below the 
+aggregate PCE amount, the capital can be computed taking into account the 
+outstanding bond amount. 
+c. In situations where the pre-enhanced rating of the bond slips below 
+investment grade (BBB minus), full capital to the extent of PCE provided shall 
+be maintained by all REs, including NBFCs and HFCs. 
+41. In all circumstances, the capital computed for PCE as mentioned above and 
+required to be maintained by the PCE provider, shall be capped by the total 
+amount of PCE provided. 
+42. In a waterfall mechanism, Credit Enhancement (CE) gets drawn only in a 
+contingent situation of cash flow shortfall for servicing a debt/ bond etc., and not 
+Page 11 of 20 
+ 
+in the normal course of business. Hence, such an event is indicative of financial 
+distress of the project. Keeping this aspect in view, a drawn tranche of the 
+contingent PCE facility shall be required to be repaid within 30 days from the 
+date of its drawal (due date). The facility shall be treated as NPA if it remains 
+outstanding for 90 days or more from the due date and provided for as per the 
+usual asset classification and provisioning norms. In that event, the RE’s other 
+facilities to the borrower shall also be classified as NPA as per extant guidelines. 
+43. The PCE providing RE shall observe the following exposure limits:  
+a. PCE exposure by a RE to a single counterparty or group of counterparties 
+shall be within the overall regulatory exposure limits applicable to each 
+category of RE. 
+b. The aggregate PCE exposure of a RE shall not exceed 20 per cent of its Tier 
+1 capital. 
+C. Additional conditions for providing PCE to bonds of NBFCs and HFCs 
+44. The tenor of the bond issued by NBFCs/ HFCs for which PCE is provided shall 
+not be less than three years. 
+45. The proceeds from the bonds backed by PCE from REs shall only be utilized for 
+refinancing the existing debt of the NBFCs/ HFCs. REs shall introduce 
+appropriate mechanisms to monitor and ensure that the end-use condition is 
+met. 
+46. The exposure of a RE by way of PCEs to bonds issued by each such NBFC/ 
+HFC shall be restricted to one percent of capital funds of the RE within the extant 
+single/ group borrower exposure limits. 
+D. Other Aspects of PCE 
+47. The effect of the PCE on the bond rating shall be disclosed in the bond offer 
+document i.e., the rating of the bond without and with the PCE shall be disclosed. 
+48. REs shall ensure that the project assets, created out of the bond issue for which 
+PCE has been provided by them, and the cash flows from the project are ring 
+fenced through an escrow account mechanism administered under a bond 
+trustee arrangement. The manner in which security interest in the project assets 
+would be shared by the lenders to the project, bond holders and REs providing 
+Page 12 of 20 
+ 
+the PCE and the manner in which the project cash flows would be shared for 
+servicing loans, if any, and the bonds and PCE, shall be decided and agreed 
+upon before the issue of bonds and shall be properly documented. 
+49. The project shall have a robust and viable financial structure even before the 
+credit enhancement is taken into account. Nevertheless, while providing PCE, 
+REs shall exercise necessary due diligence and credit appraisal, including 
+making their own internal credit analysis/ rating. 
+50. REs shall honour the full PCE commitment irrespective of the asset classification 
+of the concerned borrower’s credit facilities.  
+51. All extant regulatory prescriptions for credit and investment exposures by REs, 
+unless specified otherwise in this Direction, shall continue to apply. 
+Chapter - V 
+Exclusions and Other Aspects 
+52. These Directions have been issued without prejudice to Directions under 
+Foreign Exchange Management Act (FEMA), 1999; Foreign Exchange 
+Management (Guarantees) Regulations, 2000, notified vide Notification No. 
+FEMA 8/2000-RB dated May 03, 2000; as amended from time to time. 
+53. Notwithstanding clause 52 above, RE shall comply with all the related regulatory 
+norms including exposure norms issued by RBI as amended from time to time. 
+54. With these Directions coming into force, the instructions/ guidelines contained in 
+Annex 2, will stand repealed as of the effective date. Notwithstanding the repeal 
+provision above, anything done or any action taken or purported to have been 
+done or taken, or any direction given or any proceeding taken or any penalty or 
+fine imposed under the repealed enactments shall, insofar as it is not 
+inconsistent with the provisions of these Directions, be deemed to have been 
+done or taken under the corresponding provisions of these Directions. 
+Page 13 of 20 
+ 
+ Chapter VI  
+Disclosures 
+55. The RE shall disclose the details of NFB credit facilities in the format given 
+below: 
+As at 31st 
+March 20XX 
+As at 31st 
+March 20XX 
+Previous 
+Year 
+Previous 
+Year 
+Secured* 
+Portion 
+Unsecured 
+Portion 
+Secured* 
+Portion 
+Unsecured 
+Portion 
+I 
+Outstanding Guarantees  
+  
+  
+  
+  
+i) In India 
+  
+  
+  
+  
+ii) Outside India 
+  
+  
+  
+  
+II 
+Acceptances, Endorsements 
+and other Obligations 
+  
+  
+  
+  
+III 
+Other NFB Credit facilities 
+  
+  
+  
+  
+* Secured portion is as defined under these Directions.  
+ 
+ 
+Page 14 of 20 
+ 
+        Annex 1 
+Operational Risk Controls for issuance of Electronic Guarantees 
+a. Policy and SOP 
+i. 
+REs shall have suitable enabling provisions in their credit policy which 
+shall, inter alia, envisage the adoption of electronic Guarantees, the risk 
+controls to be put in place, delegation of authority, the monitoring process, 
+etc.  
+ii. 
+REs shall put in place appropriate SOPs for user reference, detailing all 
+the steps to be followed during the entire electronic Guarantee lifecycle. 
+Electronic Guarantees shall not be issued without ensuring that the 
+underlying transaction has been duly reflected in the Core Banking System 
+(CBS)/ Trade Finance System (TFS). 
+b. Integration of the systems 
+i. 
+REs shall have a strong control environment covering the policies, 
+processes and systems; sound internal controls; and appropriate risk 
+mitigation strategies for all operations pertaining to electronic Guarantees. 
+ii. 
+REs shall ensure that all features relating to the entire lifecycle events of 
+electronic Guarantees such as issuance, amendment, invocation, 
+cancellation etc. shall be available on the REs’ platform through suitable 
+integration with the electronic Guarantee service provider. 
+iii. 
+The CBS/ TFS shall be integrated with the APIs and other related 
+messaging platforms offered by the electronic Guarantee service provider, 
+in Straight Through Processing (STP) mode, without any manual 
+intervention.  
+c. User Roles 
+i. 
+REs shall have an efficient system of ‘Maker, Checker and Authorizer’ for 
+issuance and monitoring of electronic Guarantees, while ensuring strict 
+access control and an effective segregation of the role and accountability. 
+ii. 
+No role involved in electronic Guarantee issuance lifecycle shall violate 
+principle of segregation of duties, four/ six eye principle and no employee 
+Page 15 of 20 
+ 
+shall be allocated roles/ privileges across systems, applications that are 
+conflicting in nature or in violation of four/ six eye principle.  
+iii. 
+The system access shall be provided only to specified users, and access 
+through generic user IDs shall not be permitted. User review shall be 
+continuous, at defined periodicity and identifiable at any point of time with 
+respective rights and privileges. The user privileges shall be decided on 
+"need to know/ need to do" basis.  
+d. Control Measures 
+i. 
+REs shall have in place a system of periodical review and reconciliation of 
+all the electronic Guarantees issued/ modified/ cancelled, during the 
+specified period.  
+ii. 
+The issuance of electronic Guarantees shall be mandatorily covered within 
+the scope of concurrent audit and RBIA of the RE.  
+e. Other aspects 
+i. 
+The robustness of the electronic Guarantee systems shall be part of the 
+Vulnerability Assessment/ Penetration Testing (VA/PT), Information 
+Systems Audit. 
+ii. 
+Dependence on the vendors for day-to-day transactions shall be avoided. 
+Access to production systems shall be provided to vendors only in a 
+controlled environment, and audit trail shall be maintained. 
+iii. 
+ Security Incident and Event Management (SIEM) tool shall be integrated 
+with the concerned servers and consoles/ PCs connected to electronic 
+Guarantee related critical systems directly in its VLAN to generate automatic 
+alerts. 
+iv. 
+ REs shall integrate electronic Guarantee systems with Privileged User 
+Management Systems/ Identity and Access Management systems. The logs 
+of the same shall be monitored through Security Operation Centre (SOC) 
+setup. 
+v. 
+Business Continuity Measures and contingency plans for system failures, 
+shall be put in place by the RE.  
+Page 16 of 20 
+ 
+Annex 2 
+List of Circulars repealed in respect of Scheduled Commercial Banks 
+ 
+SI 
+No 
+Circular Number 
+Date of Issue 
+Subject 
+1 
+DBOD.No.Sch.B
+C.666/C.96Z-67 
+03 May 1967 
+Guidelines and Norms for Guarantee 
+Business Undertaken by Banks 
+2 
+DBOD.No.Sch.B
+C.1069/C.96Z-67 
+11 July 1967 
+Guarantee 
+Business 
+of 
+Banks 
+- 
+Guidelines - Clarification 
+3 
+DBOD.No.Sch.12
+88/C.96Z-67 
+17 August 1967 
+Advances 
+against 
+Shares 
+and 
+Unsecured Advances - Guidelines 
+4 
+DBOD.No.Sch.B
+C.1296/C.96Z-67 
+21 August 1967 
+Bank Guarantees 
+5 
+DBOD.No.Sch.B
+C.1693/C.96S-67 
+08 November 1967 
+Advances 
+against 
+Shares 
+and 
+Unsecured Advances - Guidelines 
+6 
+DBOD.No.Sch.B
+C.1794/C.96Z-67 
+29 November 1967 
+Bank Guarantees 
+7 
+DBOD.No.Sch.B
+C.1850/C.96Z-67 
+07 December 1967 
+Bank Guarantees 
+8 
+DBOD.No.Sch.B
+C.68/C.96(S)-68 
+12 January 1968 
+Unsecured Advances - Guidelines 
+9 
+DBOD.No.Sch.B
+C.359/C.96S-68 
+07 March 1968 
+Unsecured Advances - Inland D/A Bills 
+having a Usance of 90 Days 
+10 
+DBOD.No.Sch.B
+C.421/C.96(S)-68 
+19 March 1968 
+Unsecured Advances 
+- Advances 
+against 
+Supply 
+Bills 
+Drawn 
+on 
+Central/State Governments 
+11 
+DBOD.No.Sch.B
+C.481/C.96S-68 
+30 March 1968 
+Unsecured Advances 
+12 
+DBOD.No.Sch.B
+C.2342/C.96S-68 
+08 August 1968 
+Advances against Book Debts 
+13 
+DBOD.No.Sch.B
+C.2381/C.96(Z)-
+68 
+14 August 1968 
+Bank Guarantees 
+14 
+DBOD.No.Sch.B
+C.1001/C.96Z-69 
+23 June 1969 
+Bank Guarantees 
+15 
+DBOD.No.Sch.B
+C.1051/C.96(S)-
+69 
+01 July 1969 
+Unsecured 
+Advances 
+made 
+to 
+Exporters made on Consignment Basis 
+to be Excluded for the Purpose of Norm 
+16 
+DBOD.No.Sch.B
+C.1610/C.96(S)-
+70 
+23 October 1970 
+Unsecured Advances and Guarantees 
+17 
+DBOD.No.Sch.B
+C.27/C.96(S)-72 
+24 March 1972 
+Continuance of Exemption in respect of 
+Inland D/A Bills for the purpose of Norm 
+relating 
+to 
+Unsecured 
+Advances/Guarantees 
+18 
+DBOD.No.Sch.B
+C.68/C.109-72 
+31 July 1972 
+Bank Guarantee Scheme 
+19 
+DBOD.No.BM.BC
+.81/C.297(P)-72 
+14 September 1972 
+Bid 
+Bonds 
+and 
+Performance 
+Guarantees 
+Page 17 of 20 
+ 
+20 
+DBOD.No.Sch.B
+C.88/C.96(S)-72 
+10 October 1972 
+Unsecured Advances Guaranteed by 
+Credit Guarantee Corporation of India 
+Ltd. 
+21 
+DBOD.No.GCS.B
+C.25/C.107(N)-74 
+01 April 1974 
+Guarantee 
+of 
+Inter-company 
+Deposits/Loans by Commercial Banks 
+22 
+DBOD.No.Fol.BC
+.9/C.249-76 
+20 January 1976 
+Co-acceptance of Bills/Guarantees by 
+Commercial Banks on Inter-company 
+Deposits/ Loans 
+23 
+DBOD.No.ECC.B
+C.89/C.297L(1-
+D)-76 
+04 August 1976 
+Bid 
+Bonds 
+and 
+Performance 
+Guarantees 
+24 
+DBOD.No.ECC.B
+C.77/C.297L(1-
+A)-77 
+07 June 1977 
+Unconditional Guarantee Issued by 
+Indian Banks in favour of Overseas 
+Employers/ Importers on Behalf of 
+Indian Exporters 
+25 
+DBOD.No.Clg.BC
+.1/C.109-78 
+02 January 1978 
+Bank Guarantee Scheme 
+26 
+DBOD.No.Dir.BC.
+122/C.107(N)-78 
+20 September 1978 
+Guarantee 
+of 
+Inter-company 
+Deposits/Loans by Commercial Banks 
+27 
+DBOD.No.Clg.BC
+.21/C.109(H)-80 
+08 February 1980 
+Bank Guarantee Scheme 
+28 
+DBOD.No.Inf.BC.
+103/C.109-80 
+11 September 1980 
+Bank Guarantee Scheme 
+29 
+ICD.No.CAD.18/
+C.446-82 
+10 February 1982 
+Bank Guarantee  
+30 
+DBOD.No.Clg.BC
+.91/C.109(H)-82 
+30 September 1982 
+Bank Guarantee Scheme 
+31 
+ICD.No.CAD.47/
+C.446(HF-P)-83   
+08 January 1983 
+Guarantees Furnished by Banks in 
+favour of HUDCO/ State Housing 
+Boards and similar bodies etc. 
+32 
+DBOD.No.BP.678
+/C.473-83 
+11 January 1983 
+Bank Guarantee 
+33 
+DBOD.No.Dir.BC.
+44/C.96-83 
+30 May 1983 
+Guarantee 
+of 
+Inter-company 
+Deposits/Loans by Commercial Banks 
+34 
+DBOD.No.GC.SI
+C.BC.97/C.408(A
+)-83 
+26 November 1983 
+Opening of Letters of Credit - Issue of 
+Guarantees and Co-acceptance of Bills 
+by Banks 
+35 
+IECD.No.CAD.82/
+C.446(HF-P)-84 
+02 February 1984 
+Guarantee Furnished by Banks in 
+favour of HUDCO in respect of Loans 
+to State Housing Boards and similar 
+Bodies 
+36 
+DBOD.No.Dir.BC.
+25/C.96-84 
+26 March 1984 
+Guarantee 
+of 
+Inter-company 
+Deposits/Loans by Commercial Banks 
+37 
+DBOD.No.BP.BC.
+111/C.469(W)-85 
+02 September 1985 
+Safeguards 
+for 
+Issue 
+of 
+Banks 
+Instruments, etc. 
+38 
+IECD.No.PMS.12
+9/C.446(PL)-85  
+11 October 1985 
+CAS 
+- 
+IDBI 
+Bills 
+Rediscounting 
+Scheme 
+39 
+DBOD.No.BP.BC.
+18/C.473-86 
+24 February 1986 
+Bank Guarantee 
+40 
+DBOD.No.BP.BC.
+28/C.469(W)-86 
+07 March 1986 
+Safeguards 
+for 
+Issue 
+of 
+Banks 
+Instruments, etc. 
+Page 18 of 20 
+ 
+41 
+DBOD.No.Inf.BC.
+45/C.109(H)-86 
+09 April 1986 
+Bank Guarantee Scheme 
+42 
+DBOD.No.BP.BC.
+130/C.473-86 
+15 November 1986 
+Bank Guarantee 
+43 
+DBOD.SIC.BC.5A
+/C.739 (A-1)-87 
+29 January 1987 
+Co-acceptance of Bills Drawn under 
+Letters of Credit by Banks 
+44 
+DBOD.No.BP.BC.
+11/C.473-87 
+10 February 1987 
+Payment of Invoked Guarantees 
+45 
+DBOD.No.BP.BC.
+71/C.473-87 
+10 December 1987 
+Payment under Bank Guarantees - 
+Immediate Settlement of Cases 
+46 
+DBOD.No.Inf.BC.
+73/C.109(H)-89 
+15 February 1989 
+Bank Guarantee Scheme 
+47 
+DBOD.No.BP.BC.
+124/C.473-89 
+31 May 1989 
+Payment under Bank Guarantees - 
+Immediate Settlement of Cases 
+48 
+DBOD.No.Dir.BC.
+11/C.96-89 
+09 August 1989 
+Bank Guarantee Scheme 
+49 
+IECD.No.PMD.B
+C.12/C.446(C&P)
+- 90/91 
+21 September 1990 
+Co-acceptance/Issuance of Guarantee 
+Favouring 
+Financial 
+Institutions 
+- 
+Buyers' Line of Credit Scheme (BLCS) 
+50 
+IECD.No.CMD.IV.
+13/HF-P-90/91 
+15 October 1990 
+Issue of Guarantee by Banks favouring 
+HUDCO in respect of Loans to State 
+sponsored Bodies 
+51 
+DBOD.No.Dir.BC.
+35/C.96(Z)-90  
+22 October 1990 
+Bank Guarantee Scheme 
+52 
+DBOD.No.BP.BC.
+53/C.473-91 
+27 November 1991 
+Payment under Bank Guarantees - 
+Immediate Settlement of Cases 
+53 
+DBOD.No.BC.18
+5/21.04.009-93 
+21 October 1993 
+Bank Guarantee - Delay in Obtaining 
+Certified Copies of Judgements 
+54 
+DBOD.No.BP.BC.
+194/21.04.009/ 
+93 
+22 November 1993 
+Payment under Bank Guarantees - 
+Immediate Settlement of Cases 
+55 
+IECD.No.21/08.1
+2.01/94-95   
+01 November 1994 
+Bill Discounting Schemes Operated by 
+Small Industries Development Bank of 
+India (SIDBI) 
+56 
+IECD.No.37/08.1
+2.01/94-95  
+23 February 1995 
+Issue of Bank Guarantees in favour of 
+Financial Institutions 
+57 
+IECD.No.21/08.1
+2.01/96-97 
+21 February 1997 
+Bill 
+Discounting/Rediscounting 
+Schemes Operated by Power Finance 
+Corporation Ltd. (PFC) 
+58 
+DBOD.No.BP.BC.
+16/21.04.009/97  
+28 February 1997 
+Payment under Bank Guarantees - 
+Immediate Settlement of Cases 
+59 
+Para 4.2 of 
+IECD.No.26/08.1
+2.01/98-99    
+23 April 1999 
+Financing of Infrastructure Projects 
+60 
+DBOD.No.BP.BC.
+78/21.04.009/99 
+04 August 1999 
+Bank Guarantees 
+61 
+Para 5 of 
+IECD.No.16/08.1
+2.01/2001-02   
+20 February 2002 
+Financing of Infrastructure Projects 
+Page 19 of 20 
+ 
+62 
+DBOD No. 
+BP.BC. 
+90/21.04.141/200
+1-02 
+18 April 2002 
+Exclusion of credit card outstanding 
+from the norms relating to unsecured 
+advances and guarantees 
+63 
+DBOD.No.BP.BC.
+39/21.04.141/200
+2-03 
+06 November 2002 
+Exemption of Advances granted to Self 
+Help Groups (SHGs) against Group 
+Guarantee from the Limit of Unsecured  
+Guarantees and Advances 
+64 
+DBOD.No.BP.BC.
+47/21.04.141/200
+2-03  
+13 December 2002 
+Limit of Unsecured Guarantees and 
+Advances 
+65 
+IECD.No.17/08.1
+2.01/2002-03 
+05 April 2003 
+Guarantees and Co-acceptances 
+66 
+DBOD.No.Dir.BC.
+35/13.07.10/2006
+-2007 
+11 October 2006 
+Guarantees and Co-acceptances 
+67 
+DBOD 
+No.Dir.BC.72/ 
+13.03.00/2006-07 
+03 April 2007 
+Guarantees for Export Advance 
+68 
+MBC 
+27 May 2008 
+Signing of Bank Guarantee 
+69 
+MBC 
+15 April 2009 
+Bank Guarantee with Auto Renewal 
+Clause 
+70 
+DBOD.No.BP.BC.
+127/21.04.009/20
+08-09  
+22 April 2009 
+Extension of Guarantee - Maturity 
+Beyond Ten Years 
+71 
+DBOD.No.DIR.B
+C.136/13.03.00/2
+008-09 
+29 May 2009 
+Issue of Guarantees by Bank 
+72 
+Mail-Box 
+Clarification 
+(MBC) 
+19 May 2011 
+Issue of Bank Guarantee (BG) / Letter 
+of Credit (LC) by Commercial Banks to 
+constituents of Co-operative Banks 
+73 
+Para 8.2 of 
+DBOD.BP.BC.No.
+98 / 21.04.132 / 
+2013-14 
+26 February 2014 
+Framework for Revitalising Distressed 
+Assets in the Economy - Refinancing of 
+Project Loans, Sale of NPA and Other 
+Regulatory Measures 
+74 
+DBR.BP.BC.No.4
+0/21.04.142/2015
+-16      
+24 September 2015 
+Partial 
+Credit 
+Enhancement 
+to 
+Corporate Bonds 
+75 
+DBR.Dir.BC.No.7
+0/13.03.00/2015-
+16  
+07 January 2016 
+Non-Fund Based Facility to Non-
+constituent Borrowers of Bank 
+76 
+DBR.BP.BC.No.5
+/21.04.142/2016-
+17 
+25 August 2016 
+Partial Credit Enhancement (PCE) to 
+Corporate Bonds 
+77 
+DBR.No.BP.BC.7
+0/21.04.142/2016
+-17 
+18 May 2017 
+Partial 
+Credit 
+Enhancement 
+to 
+Corporate Bonds 
+78 
+DBR.BP.BC.No.7
+/21.04.142/2018-
+19  
+02 November 2018 
+Partial Credit Enhancement to Bonds 
+Issued 
+by 
+Non-Banking 
+Financial 
+Companies and Housing Finance 
+Companies 
+ 
+Page 20 of 20 
+ 
+List of Circulars repealed in respect of Urban Cooperative Banks 
+ 
+Sl 
+No 
+Circular Number 
+Date of Issue 
+Subject 
+1 
+ACD.Plan(INDC)
+1571/HB.164/69-
+70  
+10 December 1969 
+Guidelines for the Guarantee Business 
+of State Co-operative Banks 
+2 
+ACD.Plan.IFS.55
+0/HB.164-74/5   
+26 August 1974 
+Issue of Guarantees - 
+Guidelines to be Followed by Primary 
+(Urban) Co-operative Banks 
+3 
+ACD.Plan.(CUB)1
+40/UB.8-79/80   
+17 October, 1979 
+Bank Guarantee Scheme - Primary 
+(Urban) Co-operative Banks 
+4 
+ACD.Plan.(CUB).
+74/UB.8/80/81    
+20 August, 1980 
+Bank Guarantee Scheme - Primary 
+(Urban) Co-operative Banks 
+5 
+RPCD.No.CRRB.
+1507/Misc.5-
+82/83  
+31 May 1983 
+Guarantee Furnished by the State and 
+Central 
+Co-operative 
+Banks 
+in favour of HUDCO/State Housing 
+Boards and similar bodies etc. 
+6 
+RPCD.No.CRRB.
+3465/Misc.5-
+83/84 
+17 May 1984 
+Guarantees to be Furnished by the 
+State and Central Co-operative Banks 
+in favour of HUDCO in respect of 
+Loans to State Housing Boards and 
+similar bodies 
+7 
+UBD.No.POT.1/U
+B.58-92/3 
+03 July 1992 
+Payment 
+under 
+LCs 
+-Immediate 
+settlement of claims 
+8 
+UBD.No.Plan.42/
+09.27.00-93/94 
+16 December 1993 
+Bank guarantee - Delay in obtaining 
+certified copies of Judgements 
+9 
+UBD.Plan.Cir.SU
+B.1/09.27.00/94-
+95 
+18 October 1994 
+Issue of guarantees -Guidelines to be 
+followed by the primary (urban) co-
+operative banks 
+10 
+UBD.No.I&L/PCB
+/9/12.05.00/95-96 
+01 September 1995 
+Payment under bank guarantees - 
+Immediate settlement of cases 
+11 
+UBD.No.Plan.(PC
+B)49/09.27.00/96-
+97 
+26 April 1997 
+Payment 
+under 
+bank guarantee - 
+Immediate settlement of cases 
+12 
+UBD.No.Plan.PC
+B.CIR.07/09.27.0
+0/99-2000 
+21 September 1999 
+Bank Guarantees 
+13 
+UBD.(PCB)BPD.
+Cir.No.29/13.05.0
+00/2011-12 
+30 March 2012 
+Discounting of Bills by UCBs - 
+Restricted Letters of Credit 
+ 
