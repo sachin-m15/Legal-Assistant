@@ -35,13 +35,25 @@ class AgentState(TypedDict):
     final_analysis: str
     research_complete: bool
     chat_history: List[BaseMessage]
-    sources: Annotated[List[dict], operator.add]  # <-- NEW: To store source metadata
-    role: str  # <-- NEW: To store the user's role
+    sources: Annotated[List[dict], operator.add]  # store source metadata
+    role: str  # user role
+    iteration_count: int  # track iterations for recursion safety
+
+
+MAX_ITERATIONS = 5  # stop after this many research loops
 
 
 def decide_next_step(state: AgentState):
-    """Decide whether to continue research or finalize the analysis."""
-    if state.get("research_complete", False):
+    """Decide next workflow step with recursion safety."""
+    if "iteration_count" not in state:
+        state["iteration_count"] = 0
+
+    state["iteration_count"] += 1
+
+    if (
+        state.get("research_complete", False)
+        or state["iteration_count"] >= MAX_ITERATIONS
+    ):
         return "final_analysis"
     else:
         return "perform_research"

@@ -6,7 +6,10 @@ import uuid
 # --- Import the router instead of the agent app directly ---
 from agent.router import route_query
 
+# Load environment variables
 load_dotenv()
+
+# Streamlit page config
 st.set_page_config(page_title="Legal Assistant", layout="wide")
 
 
@@ -37,7 +40,7 @@ def reset_chat():
     st.session_state["thread_id"] = generate_thread_id()
     st.session_state["message_history"] = []
     add_thread(st.session_state["thread_id"])
-    st.session_state.messages = []  # Reset Streamlit's native message history
+    st.session_state["messages"] = []  # Reset Streamlit's native message history
     # Reset the initial greeting based on the current role
     initial_greeting()
 
@@ -46,10 +49,6 @@ def add_thread(thread_id):
     if thread_id not in st.session_state["chat_threads"]:
         st.session_state["chat_threads"].append(thread_id)
 
-
-# The load_conversation_history needs to be updated to work with the router
-# The LangGraph MemorySaver does not expose a list of threads for retrieval
-# in a simple manner, so we'll handle history directly in the session state for this example.
 
 # ====================== Session State ======================
 if "thread_id" not in st.session_state:
@@ -61,12 +60,15 @@ if "chat_threads" not in st.session_state:
 if "message_history" not in st.session_state:
     st.session_state["message_history"] = []
 
-# --- NEW: Session State for Role ---
-if "role" not in st.session_state:
+if "messages" not in st.session_state:  # ✅ FIX: initialize messages
+    st.session_state["messages"] = []
+
+if "role" not in st.session_state:  # Default role
     st.session_state["role"] = "Common Citizen"
 
+
 # ====================== UI Layout ======================
-st.sidebar.title("⚖️L.A.R.A (Legal Analysis & Research Assistant)")
+st.sidebar.title("⚖️ L.A.R.A (Legal Analysis & Research Assistant)")
 if st.sidebar.button("➕ New Chat"):
     reset_chat()
     st.rerun()
@@ -76,25 +78,21 @@ for thread_id in st.session_state["chat_threads"][::-1]:
     title = f"Chat {thread_id[:6]}"
     if st.sidebar.button(title, key=thread_id):
         st.session_state["thread_id"] = thread_id
-        # Reloading history requires a database or more complex retrieval,
-        # so for this demo, we'll just reset the chat to a new thread.
-        # For a full implementation, you'd load from the checkpointer.
         st.session_state["message_history"] = []
         st.rerun()
 
-st.title("💬LARA – Your AI Legal Companion")
+st.title("💬 LARA – Your AI Legal Companion")
 
-# --- NEW: Role Selection UI ---
+# --- Role Selection UI ---
 selected_role = st.radio(
     "Select your role:", ("Common Citizen", "Lawyer"), key="role_selector"
 )
-# Update the session state with the selected role
 if selected_role != st.session_state["role"]:
     st.session_state["role"] = selected_role
-    # Reset the chat to provide a new, role-specific greeting
     reset_chat()
     st.rerun()
 
+# Ensure greeting exists
 initial_greeting()
 
 st.markdown(
@@ -112,28 +110,25 @@ for message in st.session_state.messages:
 user_input = st.chat_input("Type your legal query here...")
 
 if user_input:
-    # Add user's message to the session state
+    # Add user's message to history
     st.session_state.messages.append({"role": "user", "content": user_input})
     with st.chat_message("user"):
         st.markdown(user_input)
 
-    # --- NEW: Call the router function ---
+    # Route the query
     with st.chat_message("assistant"):
         try:
-            # Pass the user's role to the router
             result = route_query(
                 role=st.session_state["role"],
                 user_query=user_input,
                 thread_id=st.session_state["thread_id"],
             )
 
-            # Extract the final_analysis content from the result
-            full_analysis = result.get("final_analysis", "")
-
-            # Display AI output
+            # Extract and display final analysis
+            full_analysis = result.get("final_analysis", "⚠️ No response generated.")
             st.markdown(full_analysis)
 
-            # Add AI response to history
+            # Save AI response
             st.session_state.messages.append(
                 {"role": "assistant", "content": full_analysis}
             )

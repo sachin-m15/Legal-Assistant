@@ -1,0 +1,77 @@
+# ===================================================================
+# Python / Virtual Environments
+# ===================================================================
+
+# Virtual Environments - Never commit your environment folder
+.env
+.venv
+env/
+venv/
+myenv/
+ENV/
+
+# Python cache files and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+
+# ===================================================================
+# Secrets & Credentials - IMPORTANT
+# ===================================================================
+
+# Environment variables file
+.env
+
+# ===================================================================
+# IDEs and Editors
+# ===================================================================
+
+# Visual Studio Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Other common editor files
+*.swp
+*~
+
+# ===================================================================
+# Testing & Coverage Reports
+# ===================================================================
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+
+# ===================================================================
+# Data Files (Optional - uncomment if needed)
+# ===================================================================
+
+# If your data is large, sensitive, or easily recreated, ignore it.
+# data/
+# raw_data/
+
+# ===================================================================
+# Miscellaneous
+# ===================================================================
+
+# OS-generated files
+.DS_Store
+Thumbs.db

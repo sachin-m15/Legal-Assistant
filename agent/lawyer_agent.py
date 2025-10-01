@@ -24,14 +24,27 @@ class LawyerAgentState(TypedDict):
     final_analysis: str
     research_complete: bool
     chat_history: List[BaseMessage]
-    sources: Annotated[List[dict], operator.add]  # <-- NEW: To store source metadata
-    role: str  # <-- NEW: To store the user's role
+    sources: Annotated[List[dict], operator.add]
+    role: str
+    iteration_count: int  # <-- NEW: track research iterations
+
+
+MAX_ITERATIONS = 5  # Prevent infinite loops
 
 
 # --- Workflow Decision Logic ---
 def decide_lawyer_next_step(state: LawyerAgentState):
     """Decide whether to continue research or finalize the analysis for a lawyer."""
-    if state.get("research_complete", False):
+    if "iteration_count" not in state:
+        state["iteration_count"] = 0
+
+    state["iteration_count"] += 1
+
+    # Stop if research is complete or max iterations reached
+    if (
+        state.get("research_complete", False)
+        or state["iteration_count"] >= MAX_ITERATIONS
+    ):
         return "final_analysis"
     else:
         return "perform_research"
